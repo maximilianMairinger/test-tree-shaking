@@ -1,4 +1,5 @@
-import test-tree-shaking from "./../../app/src/test-tree-shaking"
-//const testElem = document.querySelector("#test")
+import { AAA } from "../../app/src/tree"
 
-test-tree-shaking()
+
+console.log(new AAA(""))
+
